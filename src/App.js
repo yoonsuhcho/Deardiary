@@ -9,7 +9,7 @@ import indexScreen from "./index";
 import WeekPage from "./WeekPage";
 import TodayPage from "./TodayPage";
 import Diary from "./Diary";
-
+//
 const Stack = createStackNavigator();
 
 export default function App() {

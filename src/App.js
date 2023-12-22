@@ -15,7 +15,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <CalendarProvider>
+      <CalendarProvider> 
         <Stack.Navigator>
           <Stack.Screen name="home" component={indexScreen}
           options={{ headerTransparent: true }} />
